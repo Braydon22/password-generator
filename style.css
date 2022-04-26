@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(221, 217, 213);
+}
+input[type = 'checkbox']{
+   height: 2vh;
+   width: 2vh;
+}
+nav{
+    font-family: 'Dela Gothic One', cursive;
+    height: 20vh;
+    background-color: #ffffff ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    letter-spacing: 20px;
+}
+
+.passwordContents li{
+    padding: 35px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+#passwordTextBox{
+    height: 10vh;
+    width: 55vw;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+#generateBtn{
+    height: 8vh;
+    width: 18vw;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    margin-left: 8%;
+    
+}
+#generatePassword{
+    margin-top: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

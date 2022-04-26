@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password-Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav> 
+        <h1>
+            PaSswoRd  GeneRaTor
+        </h1>
+    </nav>
+    
+    <div id="content">
+
+    <div class="passwordContents">
+        <ul> 
+            <li> <input type="checkbox" name="Number" id = "Number" checked>
+                <label for="Number"> Number (e.g. 123) </label>
+            </li>
+            <li>
+                <input type="checkbox" name="alphabet-smallcase" id = "alphabet-smallcase">
+                <label for="alphabet-smallcase"> Letters (e.g. abc)</label>
+            </li>
+            <li>   
+                 <input type="checkbox" name="alphabet-uppercase" id = "alphabet-uppercase">
+                <label for="alphabet-uppercase"> Letters Uppercase (e.g. ABC)</label>
+            </li>
+            <li>
+                <input type="checkbox" name="special-characters" id ="special-characters">
+                <label for="special-characters">Special Characters (e.g. &*^%)</label>
+            </li>
+            <li>
+                <label for="length-of-password">Length Of Your Password</label>
+                <select name="length-of-password" id="length-of-password">
+                    <option value="8"> 8 </option>
+                    <option value="16"> 16 </option>
+                    <option value="24"> 24 </option>
+                </select>
+            </li>
+        </ul>
+       
+    </div>
+
+    <div id="generatePassword">
+        <input type="text" id = "passwordTextBox">
+        <button id = "generateBtn">Generate Password</button>
+    </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
